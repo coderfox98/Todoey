@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Cell : UITableViewCell {
+class Cell : Codable {
     
     var item : String = ""
     var done : Bool = false
